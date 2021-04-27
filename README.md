@@ -25,3 +25,24 @@ Create a functional website with information pertinent to my growth and expertis
 ## User Flow
 
 ![Image of userflow](https://github.com/SpideyFanDan/dansmith-portfolio-blog/blob/main/Assets/portfolio-adminuserflow.jpg)
+
+## Wireframes
+
+## Technical Requirements
+
+- Front End using JavaScript
+- Back End using NodeJS
+  - REST API
+- Database
+  - JSON
+- API Endpoints
+  - Get list of Blog Posts
+    - "api/posts"
+  - Get Individual Blog
+    - "api/posts/:post_id
+  - Post Blog Post
+    - "api/posts"
+  - Get resume
+    - "api/resume"
+  - Update resume
+    - "api/resume"
