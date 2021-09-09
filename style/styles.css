@@ -14,16 +14,18 @@ body {
 .homepage-header {
         min-height: 300px;
         width: 100%;
-        background-color: #e4eaf1;
-        color: #2d4059;
+        color: #e4eaf1;
+        background-color: #2d4059;
+        padding-top: 100px;
+        padding-bottom: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-size: 100%;
+        /* background-size: 100%;
         background-repeat: no-repeat;
         background-position: center;
-        position: relative;
+        position: relative; */
 }
 
 .home-images {
@@ -40,18 +42,28 @@ body {
     padding: 15px;
 }
 .home-profile {
+    display: flex;
     max-width: 300px;
+    min-width: 150px;
+    margin: 60px 5px 25px 20px
+}
+.home-profile img {
+    display: block;
+    width: 100%;
     height: auto;
-    margin: 50px 5px 25px 20px
 }
 .topnav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background: #ea5455;
-    /* border: 1px solid #c2c2c2; */
-    border-radius: 5px;
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     max-height: 100px;
     padding-right: 30px;
@@ -59,8 +71,10 @@ body {
     box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
 }
 .nav-left {
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     padding: 3px;
     font-size: 24px;
     
@@ -72,23 +86,28 @@ body {
     padding: 1px 5px 5px 5px;
 }
 .nav-left a:hover {
-    transform: translate3d(-1px, -3px, 0);
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem .5rem rgba(256, 256, 256, .2);
     color: #ea5455;
     background-color: #2d4059;
 }
 .socials {
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
+
 .socials a {
-    padding: 0px;
+    padding: 3px;
     /* width: 15px; */
     /* height: 15px; */
 }
 .social-icon {
     width: 2rem;
     height: 2rem;
+}
+.social-icon:hover {
+    transform: translate3d(-1px, -2px, 0);
 }
 header {
     min-height: 300px;
@@ -139,9 +158,17 @@ header::after {
     color: #2d4059;
 }
 .spideyfandan {
-    max-height: 100px;
-    width: auto;
+    max-width: 450px;
+    min-width: 100px;
+}
+.spideyfandan img {
+    display: block;
+    width: 100%;
     height: auto;
+    border: 5px solid 2d4059;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 50px;
 }
 .subtext {
     margin-top: 8px;
@@ -253,6 +280,19 @@ footer {
     background-color: #2d4059;
     background-color: #fdeded;
 }
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.intro h1 {
+    font-size: 3em;
+    margin: 15px 25px;
+}
+.intro p{
+    font-size: 24px;
+    margin: 0px 25px;
+}
 .about {
     font-family: 'Architects Daughter';
     display: flex;
@@ -293,11 +333,46 @@ footer {
     width: 5%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .about {
         font-size: 18px;
     }
     .about-h1 {
         font-size: 25px;
+    }
+    .nav-left {
+        font-size: 18px;
+    }
+    .social-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+    .home-profile {
+        display: block;
+        align-items: top;
+        margin: 5px 5px;
+        height: auto;
+        max-width: 25%;
+        min-width: 100px;
+        padding: 0px;
+    }
+    .home-images {
+        /* flex-direction: column; */
+        max-height: 5em;
+    }
+    .homepage-header {
+        padding-top: 75px;
+    }
+    .homepage-header h1 {
+        margin-top: 35px;
+        font-size: 1.75em;
+    }
+    .homepage-header p {
+        font-size: 1em;
+    }
+    .spideyfandan img {
+        display: block;
+        max-width: 50%;
+        height: auto;
     }
 }
