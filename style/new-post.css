@@ -5,11 +5,16 @@ form > * {
     font-size: 18px;
 }
 
-#form-post-title {
+#form-post-title,
+#form-post-category,
+#form-post-location {
     width: 300px;
 }
 
-#form-post-title, #form-post-content {
+#form-post-title,
+#form-post-content,
+#form-post-category,
+#form-post-location {
     border: 1px solid #e5e5e5;
     padding: 8px;
     border-radius: 5px;
