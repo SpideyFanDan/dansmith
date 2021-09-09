@@ -7,13 +7,20 @@
 			href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="Assets/favicon.ico" />
 		<link rel="stylesheet" href="style/styles.css" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Dan's Blog</title>
+		<title>My Blogs</title>
 	</head>
-	<body>
+	<body class="blog-home">
 		<div class="add-post">
 			<a href="new-post.html">
 				<div class="nav-button new-post-button">+</div>
@@ -25,27 +32,11 @@
 			<!-- <div class="subtext">Welcome and enjoy!</div> -->
 		</header>
 		<div class="main">
-			<div class="main-container blog-posts">
-				<div class="post">
-					<img
-						class="post-image"
-						src="./Assets/comicbook-box.png"
-						alt="blog post"
-					/>
-					<div class="post-content">
-						<div class="post-date">March 31, 2020</div>
-						<div class="post-title">This is a New Blog Post</div>
-						<div class="post-text">
-							This is the content that will go on forever in order to test the
-							line height and overflow view in the blog post preview. I'm
-							learning more CSS this way and it's kinda fun to see how the rest
-							of the blog just disappears.
-						</div>
-					</div>
-				</div>
-			</div>
+			<div class="sidebar-blogs"></div>
+			<div class="main-container blog-posts"></div>
 		</div>
-		<footer>Made with ❤️ by SpideyFanDan</footer>
+
 		<script src="js/index.js" async defer></script>
 	</body>
+	<footer>Made with ❤️ by SpideyFanDan</footer>
 </html>

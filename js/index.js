@@ -21,7 +21,10 @@ const buildPosts = (blogPosts) => {
 	let blogPostsContent = '';
 	for (blogPost of blogPosts) {
 		const postImage = `${API_BASE_URL}${blogPost.image}`;
-		blogPostsContent += `<div class="post">
+		const postLink = `/dansmith/post.html?id=${blogPost.id}`;
+		blogPostsContent += `
+            <a class="post-link" href=${postLink}>
+                <div class="post">
 					<img
 						class="post-image"
 						src=${postImage}
@@ -34,7 +37,9 @@ const buildPosts = (blogPosts) => {
 							${blogPost.content}
 						</div>
 					</div>
-				</div>`;
+				</div>
+            </a>
+            `;
 	}
 	document.querySelector('.blog-posts').innerHTML = blogPostsContent;
 };

@@ -5,24 +5,108 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Roboto, sans-serif;
 }
 
 .post-link {
     text-decoration: none;
 }
+.homepage-header {
+        min-height: 300px;
+        width: 100%;
+        background-color: #e4eaf1;
+        color: #2d4059;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+}
 
-header {
-    min-height: 350px;
+.home-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.sfd-logo {
+    max-width: 8%;
+    height: auto;
+    padding: 15px;
+}
+.home-profile {
+    max-width: 300px;
+    height: auto;
+    margin: 50px 5px 25px 20px
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #c2c2c2;
+    /* border: 1px solid #c2c2c2; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    max-height: 100px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+}
+.nav-left {
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    font-size: 24px;
+    
+}
+.nav-left a {
+    text-decoration: none;
+    color: #2d4059;
+    border-radius: 10px;
+    padding: 1px 5px 5px 5px;
+}
+.nav-left a:hover {
+    transform: translate3d(-1px, -3px, 0);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    color: #ea5455;
     background-color: #2d4059;
+}
+.socials {
+    flex-direction: row;
+    align-items: center;
+}
+.socials a {
+    padding: 0px;
+    /* width: 15px; */
+    /* height: 15px; */
+}
+.social-icon {
+    width: 2rem;
+    height: 2rem;
+}
+header {
+    min-height: 300px;
+    width: 100%;
+    background-color: #e4eaf1;
     color: #2d4059;
     display: flex;
+    border-radius: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../Assets/banner.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
+}
+.blog-home header {
+background-image: url(../Assets/spidey.jpg);
 }
 header > * {
     z-index: 10;
@@ -34,8 +118,8 @@ header::after {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #EADCD7;
-    opacity: .7
+    background-color: #e5e5e5;
+    opacity: .6
 }
 .profile-image {
     width: 150px;
@@ -48,18 +132,21 @@ header::after {
     background-size: cover;
 }
 .profile-name {
-    /* border: 3px solid #ea5455; */
     border-radius: 25px;
     font-size: 3em;
     font-weight: bold;
     padding: 5px 15px;
-    /* background-color: #EADCD7; */
     color: #2d4059;
+}
+.spideyfandan {
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 .subtext {
     margin-top: 8px;
     color: #ea5455;
-    background-color: aliceblue;
+    background-color: #e4eaf1;
     /* border: 2px solid #2d4059; */
     border-radius: 12px;
     padding: 5px 10px;
@@ -67,18 +154,21 @@ header::after {
     font-size: 1em;
 }
 .main {
-    background-color: #e5e5e5;
+    background-color: #e4eaf1;
     display: flex;
     justify-content: center;
 }
+.sidebar-blogs {
+    max-width: 200px;
+}
 .main-container {
-    max-width: 1000px;
+    max-width: 800px;
     width: 100%;
     padding: 30px 16px;
 }
 .post {
     max-width: 100%;
-    border: 1px solid #c6d9e6;
+    border: 1px solid #fdeded;
     border-radius: 5px;
     margin: 25px 0px;
     display: flex;
@@ -102,7 +192,7 @@ header::after {
 }
 .post-date {
     padding: 15px 0px 5px 0px;
-    color: #C6D9E6;
+    color: #ea5455;
     font-size: 14px;
     font-weight: bold;
 }
@@ -127,7 +217,7 @@ header::after {
 footer {
     min-height: 50px;
     background-color: #ea5455;
-    color: #EADCD7;
+    color: #fdeded;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +231,7 @@ footer {
     width: 30px;
     height: 30px;
     background-color: #2d4059;
-    color: #c6d9e6;
+    color: #e4eaf1;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -150,16 +240,64 @@ footer {
     transition: all 0.25s ease;
 }
 .nav-button.new-post-button:hover {
-    background-color: #c6d9e6;
+    background-color: #e4eaf1;
     color: #2d4059;
 }
 .navigation a {
     text-decoration: none;
     color: #2d4059;
-    border: 2px solid #2d4059;
+    border: 1px solid #ea5455;
     border-radius: 8px;
     padding: 5px 8px;
     margin: 15px 0px;
     background-color: #2d4059;
-    background-color: #eadcd7;
+    background-color: #fdeded;
+}
+.about {
+    font-family: 'Architects Daughter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4eaf1;
+    color: #2d4059;
+    font-size: 24px;
+    max-width: 100%;
+}
+.about p {
+    padding: 0px 15px;
+}
+.about p a {
+    text-decoration: none;
+    color: #ea5455;
+}
+.websling {
+    display: block;
+    margin: 0px auto;
+    height: auto;
+    max-width: 80%;
+}
+.about h1 {
+    background-color: #fdeded;
+    color: #2d4059;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding: 5px 15px;
+    max-width: 100%;
+}
+
+.about hr {
+    color: #2d4059;
+    border-color: #ea5455;
+    border-top: 5px dotted #ea5455;
+    width: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        font-size: 18px;
+    }
+    .about-h1 {
+        font-size: 25px;
+    }
 }
