@@ -7,14 +7,14 @@ form > * {
 
 #form-post-title,
 #form-post-category,
-#form-post-location {
+#form-post-location, #form-post-date {
     width: 300px;
 }
 
 #form-post-title,
 #form-post-content,
 #form-post-category,
-#form-post-location {
+#form-post-location, #form-post-date {
     border: 1px solid #e5e5e5;
     padding: 8px;
     border-radius: 5px;

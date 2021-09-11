@@ -38,6 +38,7 @@ body {
 }
 .sfd-logo {
     max-width: 8%;
+    max-height: 100px;
     height: auto;
     padding: 15px;
 }
@@ -127,7 +128,7 @@ header {
     background-position: center;
     position: relative;
 }
-.blog-home header {
+.blog-home header, .new-post-page header {
 background-image: url(../Assets/spidey.jpg);
 }
 header > * {
@@ -153,7 +154,7 @@ header::after {
     background-image: url(../Assets/profile.png);
     background-size: cover;
 }
-.profile-name {
+.profile-name, .title {
     border-radius: 25px;
     font-size: 3em;
     font-weight: bold;
