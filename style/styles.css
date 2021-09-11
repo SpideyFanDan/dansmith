@@ -191,11 +191,13 @@ header::after {
 }
 .sidebar-nav {
     background-color: #2d4059;
+    width: 20%;
+    min-width: 200px;
 }
 .main-container {
     max-width: 800px;
-    width: 100%;
-    padding: 30px 16px;
+    width: 80%;
+    padding: 0px 16px;
 }
 .post {
     max-width: 100%;
