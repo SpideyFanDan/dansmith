@@ -114,6 +114,7 @@ body {
 header {
     min-height: 300px;
     width: 100%;
+    padding-top: 100px;
     background-color: #e4eaf1;
     color: #2d4059;
     display: flex;
@@ -187,8 +188,8 @@ header::after {
     display: flex;
     justify-content: center;
 }
-.sidebar-blogs {
-    max-width: 200px;
+.sidebar-nav {
+    background-color: #2d4059;
 }
 .main-container {
     max-width: 800px;
