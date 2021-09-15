@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:3000/api/posts';
+const PORT = process.env.PORT || 3000;
+const API_URL = `http://localhost:${PORT}/api/posts`;
 
 const submitNewPost = () => {
 	const title = document.getElementById('form-post-title').value;
