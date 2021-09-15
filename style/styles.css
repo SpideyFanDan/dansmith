@@ -98,7 +98,39 @@ body {
     width: auto;
     margin-right: 1.5em;
 }
-
+.email-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* width: auto; */
+    margin: 1rem;
+    max-width: 40px;
+    height: auto;
+}
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #2d4059;
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 1rem;
+    max-width: 500px;
+    /* height: auto; */
+    /* flex: 1em; */
+}
+.filler {
+    height: 100px;
+}
 .socials a {
     padding: 3px;
     /* width: 15px; */
@@ -374,11 +406,20 @@ footer {
         font-size: 1.75em;
     }
     .homepage-header p {
-        font-size: 1em;
+        font-size: 1rem;
     }
     .spideyfandan img {
         display: block;
         max-width: 50%;
         height: auto;
+    }
+    .resume h1 {
+        font-size: 1.5rem;
+    }
+    .resume h3 {
+        font-size: 1rem;
+    }
+    .email-icon {
+        max-width: 30px;
     }
 }
