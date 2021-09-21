@@ -427,6 +427,9 @@ footer {
     .homepage-header p {
         font-size: 1rem;
     }
+    .spideyfandan {
+        font-size: .7rem;
+    }
     .spideyfandan img {
         display: block;
         max-width: 50%;
