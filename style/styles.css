@@ -52,6 +52,7 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 .topnav {
     position: fixed;
@@ -62,7 +63,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: #ea5455;
+    background: #e4eaf1;
     /* border: 2px solid black; */
     /* border-radius: 5px; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
