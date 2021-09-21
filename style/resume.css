@@ -66,6 +66,14 @@
 .resume-achievements {
     margin: 0px
 }
+.resume-achievements a {
+    color: #ea5455;
+    text-decoration: none;
+}
+.resume-achievements a:hover {
+    color: #2d4059;
+    text-decoration: underline;
+}
 .resume-li-last {
     padding-bottom: 5px;
 }
