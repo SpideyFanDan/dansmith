@@ -199,6 +199,8 @@ header::after {
 .spideyfandan {
     max-width: 450px;
     min-width: 100px;
+    font-size: 1rem;
+    padding-left: 25px;
 }
 .spideyfandan img {
     display: block;
