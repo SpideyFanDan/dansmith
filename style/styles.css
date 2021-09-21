@@ -224,9 +224,23 @@ header::after {
     justify-content: center;
 }
 .sidebar-nav {
+    display: flex;
+    flex-direction: column;
     background-color: #2d4059;
     width: 20%;
     min-width: 200px;
+}
+.sidebar-nav a {
+    color:#e4eaf1;
+    text-decoration: dotted;
+    border-radius: 5px;
+    margin: 13px;
+    padding: 5px;
+}
+.sidebar-element {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
 }
 .main-container {
     max-width: 800px;
