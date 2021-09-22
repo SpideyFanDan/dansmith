@@ -1,6 +1,6 @@
 # Dan Smith's Portfolio Website & Blog
 
-My personal portfolio and blog website made with React and Node.
+My personal portfolio and blog website made with JavaScript and Node.
 
 ## Goals
 
