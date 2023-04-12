@@ -24,21 +24,21 @@ Create a functional website with information pertinent to my growth and expertis
 
 ## User Flow
 
-![Image of userflow](https://github.com/SpideyFanDan/dansmith-portfolio-blog/blob/main/Assets/portfolio-adminuserflow.jpg)
+![Image of userflow](/Assets/portfolio-adminuserflow.jpg)
 
 ## Wireframes
 
 ### Home Page
 
-![Image of homepage wireframe](https://github.com/SpideyFanDan/dansmith-portfolio-blog/blob/main/Assets/home.jpg)
+![Image of homepage wireframe](./Assets/home.jpg)
 
 ### Blog Main Page
 
-![Image of blog main wireframe](https://github.com/SpideyFanDan/dansmith-portfolio-blog/blob/main/Assets/blog-main.jpg)
+![Image of blog main wireframe](./Assets/blog-main.jpg)
 
 ### Blog New Post Creation Page
 
-![Image of blog new post wireframe](https://github.com/SpideyFanDan/dansmith-portfolio-blog/blob/main/Assets/blog-new-post.jpg)
+![Image of blog new post wireframe](./Assets/blog-new-post.jpg)
 
 ## Technical Requirements
 
