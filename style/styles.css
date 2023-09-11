@@ -147,9 +147,10 @@ body {
 .social-icon:hover {
     transform: translate3d(-1px, -2px, 0);
 }
-header {
+.blog-header {
     min-height: 300px;
     width: 100%;
+    margin-top: 100px;
     padding-top: 100px;
     background-color: #e4eaf1;
     color: #2d4059;
@@ -163,13 +164,13 @@ header {
     background-position: center;
     position: relative;
 }
-.blog-home header, .new-post-page header {
+.blog-home .blog-header, .new-post-page .blog-header {
 background-image: url(../Assets/spidey.jpg);
 }
-header > * {
+.blog-header > * {
     z-index: 10;
 }
-header::after {
+.blog-header::after {
     content: "";
     position: absolute;
     top: 0;
@@ -177,7 +178,7 @@ header::after {
     left: 0;
     right: 0;
     background-color: #e5e5e5;
-    opacity: .6
+    opacity: .5
 }
 .profile-image {
     width: 150px;
@@ -230,20 +231,19 @@ header::after {
     display: flex;
     flex-direction: column;
     background-color: #2d4059;
-    width: 20%;
-    min-width: 200px;
+    width: 150px;
+    padding: 10px 10px 10px 15px;
+    
 }
 .sidebar-nav a {
     color:#e4eaf1;
     text-decoration: dotted;
     border-radius: 5px;
-    margin: 13px;
-    padding: 5px;
 }
 .sidebar-element {
     display: flex;
     align-items: flex-start;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .main-container {
     max-width: 800px;
