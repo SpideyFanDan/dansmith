@@ -1,11 +1,10 @@
 * {
-    font-family: 'Architects Daughter',
-    cursive;
+    font-family: 'Arial Rounded MT Bold';
 }
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, Roboto, sans-serif;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica', 'Roboto', 'sans-serif';
 }
 
 .post-link {
