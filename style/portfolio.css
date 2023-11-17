@@ -1,6 +1,13 @@
 body {
     background-color: #C2c2c2;
 }
+
+h1 {
+    font-family: 'ice-cream-standard', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -38,7 +45,7 @@ body {
     /* position: relative; */
     /* Player ratio: 100 / (1280 / 720) */
     margin: 1em;
-    border: groove #ea5455 4px;
+    border: groove #A31414 4px;
     padding: 6px 6px 0px 6px;
     border-radius: 8px;
 }
@@ -65,9 +72,9 @@ body {
     font-weight: 2%;
     padding: 0.5em 1em 0.5em 1em;
     background-color: #2d4059;
-    -webkit-box-shadow: 1px 1px 10px 0 #ea5455;
-    -moz-box-shadow: 1px 1px 10px 0 #ea5455;
-    box-shadow: 1px 1px 1px 0 #ea5455;
+    -webkit-box-shadow: 1px 1px 10px 0 #A31414;
+    -moz-box-shadow: 1px 1px 10px 0 #A31414;
+    box-shadow: 1px 1px 1px 0 #A31414;
     border: solid #e5e5e5 2px;
     text-decoration: none;
     display: inline-block;
@@ -77,13 +84,13 @@ body {
 }
 
 .portfolio-btn:hover {
-    background: #2d4059;
+    background: #FDEDED;
     border: solid #e5e5e5 2px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     text-decoration: none;
-    color: #ea5455;
+    color: #A31414;
 }
 
 .portfolio-btn:active {

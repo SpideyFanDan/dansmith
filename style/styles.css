@@ -1,12 +1,18 @@
 * {
     font-family: 'Arial Rounded MT Bold';
 }
-
+.nav-left a {
+    font-family: 'ice-cream-standard', sans-serif;
+}
 body {
     margin: 0;
-    font-family: 'Arial Rounded MT Bold', 'Helvetica', 'Roboto', 'sans-serif';
+    font-family: 'Arial Rounded MT Bold', 'ice-cream-standard' 'Helvetica', 'Roboto', 'sans-serif';
 }
-
+h1 {
+    font-family: 'ice-cream-standard', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .post-link {
     text-decoration: none;
 }
@@ -89,8 +95,8 @@ body {
 }
 .nav-left a:hover {
     box-shadow: 0 .5rem .5rem rgba(256, 256, 256, .2);
-    color: #ea5455;
-    background-color: #2d4059;
+    color: #A31414;
+    background-color: #F1F4F8;
 }
 .socials {
     display: flex;
@@ -213,7 +219,7 @@ background-image: url(../Assets/spidey.jpg);
 }
 .subtext {
     margin-top: 8px;
-    color: #ea5455;
+    color: #A31414;
     background-color: #e4eaf1;
     /* border: 2px solid #2d4059; */
     border-radius: 12px;
@@ -275,7 +281,7 @@ background-image: url(../Assets/spidey.jpg);
 }
 .post-date {
     padding: 15px 0px 5px 0px;
-    color: #ea5455;
+    color: #A31414;
     font-size: 14px;
     font-weight: bold;
 }
@@ -299,7 +305,7 @@ background-image: url(../Assets/spidey.jpg);
 }
 footer {
     min-height: 50px;
-    background-color: #ea5455;
+    background-color: #A31414;
     color: #fdeded;
     display: flex;
     justify-content: center;
@@ -329,7 +335,7 @@ footer {
 .navigation a {
     text-decoration: none;
     color: #2d4059;
-    border: 1px solid #ea5455;
+    border: 1px solid #A31414;
     border-radius: 8px;
     padding: 5px 8px;
     margin: 15px 0px;
@@ -365,7 +371,7 @@ footer {
 }
 .about p a {
     text-decoration: none;
-    color: #ea5455;
+    color: #A31414;
 }
 .websling {
     display: block;
@@ -384,8 +390,8 @@ footer {
 
 .about hr {
     color: #2d4059;
-    border-color: #ea5455;
-    border-top: 5px dotted #ea5455;
+    border-color: #A31414;
+    border-top: 5px dotted #A31414;
     width: 5%;
 }
 
