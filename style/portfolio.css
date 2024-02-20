@@ -53,6 +53,10 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;;
 }
+.card-text p a {
+    text-decoration: none;
+    color: #A31414;
+}
 
 .card-text {
     max-width: 500px;
