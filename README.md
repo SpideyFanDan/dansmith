@@ -18,7 +18,7 @@ Create a functional website with information pertinent to my growth and expertis
 2. As a visitor, I want to see a navigation bar with links to various pages on the website.
 3. As a visitor, I want to see a list of blog posts on the blog page with navigation options of blog topics.
 4. As a visitor, I want to view an individual blog post when I click on it.
-5. As a visitor, I want to be able to download a copy of the resume as a pdf.
+5. As a visitor, I want to be able to download a copy of the resume.
 6. As a visitor, I want to read more about the site owner on a separate about me page.
 7. As an admin, I want to add a new blog post so that I can easily add content to my blog and update my resume page.
 
